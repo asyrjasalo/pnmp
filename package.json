@@ -1,0 +1,16 @@
+{
+  "name": "pnmp",
+  "version": "1.0.3",
+  "description": "That Next Gen Node.JS Package Manager, for Educational Purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run-script install",
+    "install": "npm run-script postinstall",
+    "postinstall": "./index.js"
+  },
+  "author": "DevSecOps",
+  "license": "ISC",
+  "bin": {
+    "pnmp": "./index.js"
+  }
+}
